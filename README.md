@@ -1,2 +1,2 @@
 # odin_recipes
-Practice from Odin project
+- Practice from Odin project
