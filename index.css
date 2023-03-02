@@ -1,0 +1,16 @@
+.container {
+    border: 5px solid blue;
+    background-color: lightblue;
+    padding: 16px;
+    gap: 8px;
+    display: flex;
+}
+
+.container .element {
+    color: black;
+    background: peachpuff;
+    border: 4px solid salmon;
+    height: 48;
+    text-align: center;
+    flex: 1;
+}
