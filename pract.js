@@ -40,3 +40,13 @@ button.addEventListener("click", greet);*/
 function showMessage() {
     alert("Hello JS!");
 }
+
+const myNum2 = 123;
+const myString2 = myNum2.toString();
+console.log(typeof myString2)
+
+const output = `I like the song.
+I gave it a score of 90%`;
+console.log(output)
+const output2 = "I like the song.\nI gave it a score of 90%"
+console.log(output2)

@@ -25,7 +25,7 @@
     align-items: center;
 }
 
-.navigation div {
+.navigation a {
     /*background: rgb(197, 191, 191);*/
     /*border: 1px solid blue;*/
     background: white;
@@ -39,7 +39,7 @@
     flex: 1 1 0;  
 }
 
-.navigation div:hover {
+.navigation a:hover {
     width: 90px;
     height: 40px;
     background-color: blue;
@@ -69,4 +69,12 @@
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+}
+
+.greet {
+    display: flex;
+    gap: 3px;
+    margin: 10px;
+    margin-bottom: 15px;
+    font-size: 25px;
 }
