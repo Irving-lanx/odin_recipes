@@ -74,7 +74,8 @@
 .greet {
     display: flex;
     gap: 3px;
+    justify-content: center;
     margin: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     font-size: 25px;
 }
