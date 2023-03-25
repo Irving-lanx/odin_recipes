@@ -1,12 +1,12 @@
 const hour = new Date().getHours();
 let greeting;
 
-if (hour < 10) {
+if (hour < 12) {
     greeting = "¡Buenos dias!";
 }
 
 else if (hour < 20) {
-    greeting = "Buenas tardes";
+    greeting = "¡Buenas tardes!";
 }
 else {
     greeting = "¡Buenas noches!";
